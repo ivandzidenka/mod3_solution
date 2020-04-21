@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #8080802e;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+	background-color: #868585;
+	border-radius: 0;
+	border: 2px solid black;
+}
+.navbar-header a {
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	font-size: 20px;
+	font-family: 'Baloo Paaji 2', cursive;
+	color: black;
+}
+.navbar-header a:hover, .navbar-header a:focus {
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+	.navbar-header {
+		position: absolute;
+		left: 5%;
+	}
+}
+.collapsed {
+	position: absolute;
+	float: right;
+	right: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0e0e0e;
+}
+.navbar-default .navbar-toggle {
+   
+    border: 2px solid black;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #080808;
+    border-top: 2px solid black;
+    background-color: #ece6e6;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #080808;
+    text-align: center;
+}
+.aa {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.navbar-nav {
+    margin: 0px -15px 0px -15px;
+    border-top: 2px solid black;
+}
+h2 {
+	text-align: center;
+	color: black;
+}
+.menu {
+	color: black;
+}
+.Chicken {
+	margin: 10px;
+	background-color: gray;
+	padding: 20px;
+}
+.Beef {
+	margin: 10px;
+	background-color: gray;
+	padding: 20px;
+}
+.Sushi {
+	margin: 10px;
+	background-color: gray;
+	padding: 20px;
+}
+.main-head {
+	text-align: center;
+
+}
